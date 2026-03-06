@@ -43,10 +43,6 @@ Dafür soll das **Decorator Pattern** verwendet werden.
 Ihr arbeitet in **3er-Gruppen**.
 
 Jeder in der Gruppe entwickelt **genau einen Decorator**, der das Verhalten des bewegten Objekts erweitert.
-- Beatriz - Color
-- Laurin - Speed
-- Hasan - Scale
-- Fabian - Rotation
 
 Am Ende werden mehrere Decorators **kombiniert**.
 
@@ -57,11 +53,8 @@ Am Ende werden mehrere Decorators **kombiniert**.
 Besprecht in eurer Gruppe und beantwortet hier direkt:
 
 1. Was ist das **Basisverhalten** des Programms?
-    Ball geht von A zu B und zurück
 2. Welches Verhalten gehört **nicht direkt** in die Basisklasse?
-    Farbwechsel
 3. Warum wäre es problematisch, alle neuen Effekte direkt in derselben Klasse zu implementieren?
-   Weil man die Hauptklasse nicht verändern möchte, da es sonst unübersichtlich wird.
 
 ---
 
