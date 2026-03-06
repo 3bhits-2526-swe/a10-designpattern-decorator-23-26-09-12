@@ -10,9 +10,6 @@ public class MoveBetweenPoints : MonoBehaviour
     [SerializeField] private float speed = 2f;
     [SerializeField] private float reachDistance = 0.05f;
 
-    [Header("Unschoenes Zusatzverhalten")]
-    [SerializeField] private bool changeColorOnBounce = true;
-
     private Transform currentTarget;
     private SpriteRenderer spriteRenderer;
 
@@ -28,11 +25,6 @@ public class MoveBetweenPoints : MonoBehaviour
 
         if (Vector3.Distance(transform.position, currentTarget.position) <= reachDistance)
         {
-            if (changeColorOnBounce && spriteRenderer != null)
-            {
-                spriteRenderer.color = Random.ColorHSV();
-            }
-
             currentTarget = currentTarget == pointA ? pointB : pointA;
         }
     }
