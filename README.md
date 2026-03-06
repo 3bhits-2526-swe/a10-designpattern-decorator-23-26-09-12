@@ -106,6 +106,8 @@ Der Decorator soll das Verhalten sichtbar erweitern.
 
 Testet, ob mehrere Decorators kombiniert werden können.
 
+# UML Diagramm soll dabei sein
+
 # Teil 5 - Playthrough Video (<100MB) 
 
 # Teil 6 - Vorbereitung einer Live Demo
